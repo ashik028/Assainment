@@ -1,0 +1,258 @@
+/* Section 1 Styles */
+
+/* Banner Font style */
+
+
+.container {
+    background-image: url('./Hero-bg.png');
+    padding: 40px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    text-align: center;
+}
+
+.drak {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.drak-2 {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.drak-3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background: rgb(13, 19, 33);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.drak-3 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.xd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xd img {}
+
+
+/* second section styles */
+
+
+
+.section-container {
+    max-width: 550px;
+}
+
+
+.shadow1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px;
+    margin-top: 20px;
+}
+
+
+.shadow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px;
+    margin-top: 20px;
+    /* border: 1px solid; */
+    height: 300px;
+
+}
+
+.box-shadow {
+    padding: 148pxpx;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 30px;
+    padding-top: 80px 97px;
+}
+
+.box-shadow .tr {
+    padding: 97px;
+}
+
+.section-1 {
+    color: rgb(13, 19, 33);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sub-1 {
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sub-let {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.sub-box {
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.button {
+    /* text-decoration: none; */
+    /* color: rgb(13, 19, 33); */
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px 25px;
+    background-color: #fff;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+
+
+
+/* 3rd section */
+
+.hero-5 {
+    text-align: center;
+}
+
+.video {
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+
+/* target styles */
+
+.skills-container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.target1 {
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 76, 30, 0.05);
+    text-align: left;
+}
+
+.target2 {
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 76, 232, 0.05);
+    text-align: left;
+}
+
+.target3 {
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 223, 0, 0.05);
+    text-align: left;
+}
+
+
+.target .achor {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.target .achor p a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: rgb(13, 19, 33);
+}
+
+
+/* 5th section styles */
+
+.margin {
+    margin-bottom: 80px;
+    padding-top: 88px;
+    /* padding-bottom: 46px; */
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 0px 40px;
+
+    .content {
+        color: rgb(13, 19, 33);
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .content-text {
+        color: rgb(13, 19, 33);
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .box-container a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: underline;
+        color: rgb(13, 19, 33);
+        text-align: left;
+    }
+
+.text2{
+    background-image: url('./handshake.jpg');
+}
+   
